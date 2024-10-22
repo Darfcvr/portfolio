@@ -174,3 +174,7 @@ projectImage.addEventListener('click', function(event) {
 overlay.addEventListener('click', function() {
   overlay.style.display = 'none'; // Ukryj overlay po kliknięciu
 });
+
+        function redirectToInstagram() {
+            window.location.href = "https://www.instagram.com/jakub_szel";
+        }
