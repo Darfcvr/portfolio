@@ -176,5 +176,5 @@ overlay.addEventListener('click', function() {
 });
 
         function redirectToInstagram() {
-            window.location.href = "https://www.instagram.com/jakub_szel";
+            window.location.href = "https://www.instagram.com/jakub_szel/";
         }
