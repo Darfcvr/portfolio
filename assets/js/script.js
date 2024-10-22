@@ -178,3 +178,7 @@ overlay.addEventListener('click', function() {
         function redirectToInstagram() {
             window.location.href = "https://www.instagram.com/jakub_szel/";
         }
+
+        function redirectToFacebook() {
+            window.location.href = "https://www.facebook.com/profile.php?id=61557255945816";
+        }
