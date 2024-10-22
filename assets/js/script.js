@@ -157,3 +157,20 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+// Wybierz elementy
+const projectImage = document.getElementById('project-image');
+const overlayImg = document.getElementById('overlay-img');
+
+// Funkcja, która otwiera powiększony obraz
+projectImage.addEventListener('click', function(event) {
+  event.preventDefault(); // Zatrzymaj domyślne działanie linku
+  const imgSrc = projectImage.querySelector('img').src; // Pobierz src miniatury
+  overlayImg.src = imgSrc; // Ustaw src powiększonego obrazu
+  overlay.style.display = 'flex'; // Pokaż overlay
+});
+
+// Zdarzenie do zamykania powiększonego obrazu
+overlay.addEventListener('click', function() {
+  overlay.style.display = 'none'; // Ukryj overlay po kliknięciu
+});
